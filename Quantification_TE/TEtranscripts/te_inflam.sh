@@ -1,7 +1,7 @@
 #!/bin/bash
 #### Script that runs TEtranscripts for inflammation dataset  
 ### Input Dataset - Inflammation
-path_data_infl="/home/raquel/Desktop/RFS_ALICE2/Inflammation/Bam_inflam/"
+path_data_infl="/home/raquel/Desktop/RFS_ALICE2/Inflammation/Bam_inflam/"				# path to folder with BAM files
 
 ### TEtranscript requirements
 path_L1="/home/raquel/Desktop/Scratch_ALICE2/Pipelines_scripts/TEtranscript/GTF/hg19_L1.gtf"		# filtered hg19_rmsk.gtf (only LINE-1 elements)
