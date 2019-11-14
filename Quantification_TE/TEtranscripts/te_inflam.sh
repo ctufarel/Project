@@ -4,9 +4,9 @@
 path_data_infl="/home/raquel/Desktop/RFS_ALICE2/Inflammation/Bam_inflam/"
 
 ### TEtranscript requirements
-path_L1="/home/raquel/Desktop/Scratch_ALICE2/Pipelines_scripts/TEtranscript/GTF/hg19_L1.gtf"		    # filtered hg19_rmsk.gtf (only LINE-1 elements)
+path_L1="/home/raquel/Desktop/Scratch_ALICE2/Pipelines_scripts/TEtranscript/GTF/hg19_L1.gtf"		# filtered hg19_rmsk.gtf (only LINE-1 elements)
 path_gtf="/home/raquel/Desktop/Scratch_ALICE2/Pipelines_scripts/TEtranscript/GTF/hg19_refGene.gtf"	# hg19 annotation file with gene_name information
-path_out="/home/raquel/Desktop/Scratch_ALICE2/Pipelines_scripts/TEtranscript/Sample_infl"			      # output directory
+path_out="/home/raquel/Desktop/Scratch_ALICE2/Pipelines_scripts/TEtranscript/Sample_infl"		# output directory
 
 # make output directory
 mkdir -pv $path_out
