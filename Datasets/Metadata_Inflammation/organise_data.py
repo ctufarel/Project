@@ -39,13 +39,13 @@ with open('good_SC3.tsv') as ref:
 			if item2 == 'inflamed':
 				sample.append(inf[0])		# append sample names for inflamed in sample list
 
-## 	creates new file that stores sample name from normal tissue
+## creates new file that stores sample name from normal tissue
 with open('control.txt','w') as norm:
 	# for each item in list that stores 'uninflamed' sample names
 	for item in control:
 		norm.writelines(item + '\n')	# write item to new meta-data file
 		
-## 	creates new file that stores sample name from inflamed tissue
+## creates new file that stores sample name from inflamed tissue
 with open('sample.txt','w') as inf:
 	# for each item in list that stores 'inflamed' sample names
 	for item in sample:
