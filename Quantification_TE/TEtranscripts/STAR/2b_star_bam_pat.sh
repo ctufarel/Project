@@ -13,10 +13,10 @@
 module load 'star/2.7.1a'
 
 ## Alignment requirements
-input_fastq="/scratch/colorect/rpg18/Datasets/Patients_scratch_qc/"	# multiple folder directory for each preprocessed paired-end fastq files
+input_fastq="/scratch/colorect/rpg18/Datasets/Patients_scratch_qc/" # multiple folder directory for each preprocessed paired-end fastq files
 #hg19_gtf="/scratch/colorect/rpg18/STAR/GTF/hg19.gtf" 	            # hg19 gencodev32 (optional, but I didn't use it)
-index_hg19="/scratch/colorect/rpg18/STAR/index_hg19"	              # hg19 genome index
-path_out="/scratch/colorect/rpg18/STAR/Bam_Server/"		              # output directory
+index_hg19="/scratch/colorect/rpg18/STAR/index_hg19"	            # hg19 genome index
+path_out="/scratch/colorect/rpg18/STAR/Bam_Server/"		    # output directory
 
 # for each fastq file in fastq directory
 for i in $input_fastq*
