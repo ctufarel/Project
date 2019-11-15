@@ -1,4 +1,4 @@
-# Organise data from GEO part 2: tsv file already created
+# Organise data from GEO:
 
 liston = []		# open inflam empty list
 
