@@ -1,6 +1,6 @@
 # Organise data from GEO:
 
-liston = []		# open inflam empty list
+liston = []		# open liston empty list
 
 ### open file with meta data information about the samples
 with open('Good_SraRunTable.txt') as ref:
