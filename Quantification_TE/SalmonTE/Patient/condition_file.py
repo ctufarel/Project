@@ -1,4 +1,5 @@
-## Script that re-writes condition.csv output SamonTE quant file with updated information about conditions (i.e: control vs treatment)
+
+# Script that re-writes condition.csv output SamonTE quant file with updated information about conditions (i.e: control vs treatment)
 
 import sys
 path_out = sys.argv[1]		# calls first and unique argument from run_salmonTE_counts.sh bash script
