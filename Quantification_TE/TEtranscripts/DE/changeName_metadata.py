@@ -26,7 +26,7 @@ with open('/home/rpg18/Desktop/TFM/Server_alice2/Pipelines_scripts/TEtranscript/
 
 # function that generates new metadata files with the subset of inflammation dataset used in the DE analysis (67 samples in total)
 def metadata(file):
-	new = ''
+	new = ''	# empty variable where to store items in comma-separated strings
 	with open(file) as ref:
 		file = file.replace('/home/rpg18/Desktop/TFM/Pipelines/SCRIPTS/Meta_data/','')
 		with open('new_'+file, 'w') as ref2:
@@ -41,8 +41,8 @@ def metadata(file):
 					if name.startswith(line[0]):		
 						new += name+","+line[1]			# stores sample-name and condition in comma-separated line
 			ref2.write('SampleID,tissue')		# writes first row in new metadata file
-			ref2.write('\n')					# writes a new empty line in new metadata file
-			ref2.writelines(new)				# writes sample and condition information stored in 'new' variable in new metadata file
+			ref2.write('\n')			# writes a new empty line in new metadata file
+			ref2.writelines(new)			# writes sample and condition information stored in 'new' variable in new metadata file
 
 # run metadata function to parse metadata files generated from complete inflammation dataset (a total of 71 samples)
 metadata('/home/rpg18/Desktop/TFM/Pipelines/SCRIPTS/Meta_data/tissue_type.csv') # tissue raw metadata file 
