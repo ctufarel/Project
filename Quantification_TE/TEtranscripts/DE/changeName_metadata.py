@@ -17,12 +17,12 @@ with open('/home/rpg18/Desktop/TFM/Server_alice2/Pipelines_scripts/TEtranscript/
 					all += suffix + '\t'	# store each new sample names in tab separated line (same original counting matrix format)
 					lista.append(suffix)	# append 'all' (modified sample names) to lista list
 		ref2.write('gene/TE' + '\t')	# write header (first left row) the new counting matrix file
-		ref2.writelines(all)			# write all modified sample names the new counting matrix file
-		ref2.write('\n')				# add empty line (start writing in next line) in the new counting matrix file
-		counts = lines[1:]				# counting matrix with RefSeq accession numbers and counts
+		ref2.writelines(all)		# write all modified sample names the new counting matrix file
+		ref2.write('\n')		# add empty line (start writing in next line) in the new counting matrix file
+		counts = lines[1:]		# counting matrix with RefSeq accession numbers and counts
 		# for each row in counting matrix:
 		for count in counts:
-			ref2.writelines(count)	# write these new rows in the new counting matrix file
+			ref2.writelines(count)		# write these new rows in the new counting matrix file
 
 # function that generates new metadata files with the subset of inflammation dataset used in the DE analysis (67 samples in total)
 def metadata(file):
