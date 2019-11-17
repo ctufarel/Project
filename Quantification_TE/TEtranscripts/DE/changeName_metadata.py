@@ -1,4 +1,4 @@
-# Script that modify the raw sample names in the count expression Table (TEtranscripts raw output), and generated metadata csv files for downstream analysis in R 
+# Script that modifies the raw sample names in the count expression Table (TEtranscripts raw output), and generated metadata csv files for downstream analysis in R 
 all = ''   # empty string variable
 lista = [] # creates empty list to store modified sample names
 with open('/home/rpg18/Desktop/TFM/Server_alice2/Pipelines_scripts/TEtranscript/Sample_infl/rev_infl.cntTable') as ref:	# old-original TEtranscripts counting matrix
@@ -24,7 +24,7 @@ with open('/home/rpg18/Desktop/TFM/Server_alice2/Pipelines_scripts/TEtranscript/
 		for count in counts:
 			ref2.writelines(count)	# write these new rows in the new counting matrix file
 
-
+# function that generates new metadata files with the subset of inflammation dataset used in the DE analysis (67 samples in total)
 def metadata(file):
 	new = ''
 	with open(file) as ref:
@@ -44,7 +44,7 @@ def metadata(file):
 			ref2.write('\n')					# writes a new empty line in new metadata file
 			ref2.writelines(new)				# writes sample and condition information stored in 'new' variable in new metadata file
 
-# run metadata function with metadata files generated from complete inflammation dataset 
+# run metadata function to parse metadata files generated from complete inflammation dataset (a total of 71 samples)
 metadata('/home/rpg18/Desktop/TFM/Pipelines/SCRIPTS/Meta_data/tissue_type.csv') # tissue raw metadata file 
 metadata('/home/rpg18/Desktop/TFM/Pipelines/SCRIPTS/Meta_data/dmso_RNAlater.csv') # method raw metadata file
 metadata('/home/rpg18/Desktop/TFM/Pipelines/SCRIPTS/Meta_data/age.csv') # age raw metadata file
