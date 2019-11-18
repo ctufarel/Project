@@ -25,4 +25,4 @@ python3 condition_file.py $path_out
 var1=$path_out
 var2=$path_out_test
 
-sh test_salmon.sh $var1 $var2
+sh run_test_salmon.sh $var1 $var2
