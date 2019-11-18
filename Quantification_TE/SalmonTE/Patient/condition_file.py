@@ -18,7 +18,7 @@ with open(path_out+'/condition.csv') as ref:
 			if 'N' in sample:
 				line[1]=line[1].replace('NA','control')		# replace NA for control in condition column (line[1])
 			else:
-				line[1]=line[1].replace('NA','treatment')	# replace NA for treatment in condition column (line[1])
+				line[1]=line[1].replace('NA','tumour')	# replace NA for treatment in condition column (line[1])
 				
 			ref2.writelines(sample+','+line[1]+'\n')		# writes new lines adding comma-separated character (sampleID,condition)
 
