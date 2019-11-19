@@ -9,7 +9,3 @@ var2='./TEtrans_out/pat_sample_4_sigdiff_gene_TE.txt'	# path to DEGenes for pati
 
 # generates finalgenes_func.txt file
 python3 geneDE2geneLCT.py $outpath $var1 $var2
-# generates finalgenes_pat_func.txt file
-python3 geneName2_pos_pat.py $outpath
-# generates finalgenes_compared_func.txt
-python3 infcomparison.py $outpath $var1 $var2
