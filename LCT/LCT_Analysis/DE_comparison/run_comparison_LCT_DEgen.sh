@@ -4,7 +4,7 @@ echo \n
 
 outpath=$@
 # add prefix 'infl' for inflammation and 'pat' for patient dataset
-var1='./TEtrans_out/infl_DEfold2_gene_TE.txt' 			# path to DEGenes for inflammation 
+var1='./TEtrans_out/infl_DEfold2_gene_TE.txt' 			  # path to DEGenes for inflammation 
 var2='./TEtrans_out/pat_sample_4_sigdiff_gene_TE.txt'	# path to DEGenes for patient dataset
 
 # generates finalgenes_func.txt file
