@@ -24,5 +24,6 @@ python3 condition_file.py $path_out
 ## run DE analysis using SalmonTE test function
 var1=$path_out
 var2=$path_out_test
-
-sh run_test_salmon.sh $var1 $var2
+cond1='control'
+cond2='tumour'
+sh run_test_salmon.sh $var1 $var2 $cond1 $cond2
