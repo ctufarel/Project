@@ -11,8 +11,8 @@
 # -> I had problems with genomeGenerate. I deactivated my conda environments and re-run the script. I also exited from the server (alice2) and re-entered with spcetre2, and I download gencode hg19 reference genome and annotation files. Then, it worked. Afterwards, I re-ran again the same STAR script in alice2, just to check if there is any difference between running from spectre2 or alice2. I realised that there is not difference, it worked with alice2 too.
 
 ## genomeGenerate
-hg19_gtf="/scratch/colorect/rpg18/STAR/GTF/hg19.gtf"    #hg19 gencodev32
-hg19_fa="/scratch/colorect/rpg18/STAR/hg19_fa/hg19.fa"  #hg19 gencode
+hg19_gtf="/scratch/colorect/rpg18/STAR/GTF/hg19.gtf"    # hg19 gencodev32
+hg19_fa="/scratch/colorect/rpg18/STAR/hg19_fa/hg19.fa"  # hg19 gencode
 index_hg19="/scratch/colorect/rpg18/STAR/index_hg19"    # output directory 
 
 ### Run STAR indexing
