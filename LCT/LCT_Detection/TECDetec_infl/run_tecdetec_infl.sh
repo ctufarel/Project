@@ -27,7 +27,6 @@ do
 	fastq2="_2.fastq" #_R2_001.fastq #_2.fastq
 	#j becomes the current file path, minus the dir path - i.e. the name of the subdir (name of the sample)
 	j=${i#"$path_data"}
-	echo $j
 	#one and two are concatenated from previous parts to create the full path to the fastq files
 	one="$i$j$fastq1"
 	two="$i$j$fastq2"
