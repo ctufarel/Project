@@ -1,0 +1,6 @@
+Final-Pipeline-Output text file with the basic information regarding gene position related to specific L1-5end-LCT, strand and specific RefSeq-accession: 
+
+chr11	61567581	61567691	-	id=tec_9839;cov=1.81818181818182;fromte=1;refte=L1_L1M4b_5end/L1_L1P4a_5end	id=tec_83962;cov=1.78350515463918;fromte=1;refte=L1_L1MEf_5end/L1_L1P4e_5end	NM_013402.4	FADS1
+chr19	15297110	15297210	-	id=tec_59017;cov=2;fromte=1;refte=L1_L1MDb_5end/L1_L1PREC2_5end	id=tec_82133;cov=2.76595744680851;fromte=1;refte=L1_L1PREC2_5end/L1_L1MDb_5end	NM_000435.2	NOTCH3
+chr2	135371124	135371308	-	id=tec_9043;cov=1.54347826086957;fromte=1;refte=L1_L1M4_5end	id=tec_22173;cov=2;fromte=1;refte=L1_L1M4_5end	NM_030923.4	TMEM163
+chr6	43974871	43974997	+	id=tec_6007;cov=1.79365079365079;fromte=1;refte=L1_L1MEc_5end/L1_L1MD2_5end	id=tec_34402;cov=3;fromte=1;refte=L1_L1M1_5end	NM_001171992.2	C6orf223
