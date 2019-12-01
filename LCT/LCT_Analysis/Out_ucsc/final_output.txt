@@ -1,0 +1,7 @@
+Final-Pipeline-Output text file with the basic information regarding gene position related to specific L1-5end-LCT, strand and specific RefSeq-accession: 
+
+chr11	61567581	61567691	-	id=tec_9839;cov=1.81818181818182;fromte=1;refte=L1_L1M4b_5end/L1_L1P4a_5end	id=tec_83962;cov=1.78350515463918;fromte=1;refte=L1_L1MEf_5end/L1_L1P4e_5end	uc001nsh.3	FADS1
+chr12	21098566	21098843	+	id=tec_45533;cov=1.59205776173285;fromte=1;refte=L1_L1PBa_5end	id=tec_94852;cov=2.19727891156463;fromte=1;refte=L1_L1PBa_5end	uc010sil.2	SLCO1B3
+chr12	21098566	21098843	+	id=tec_45533;cov=1.59205776173285;fromte=1;refte=L1_L1PBa_5end	id=tec_94852;cov=2.19727891156463;fromte=1;refte=L1_L1PBa_5end	uc010sim.2	SLCO1B7
+chr19	15297110	15297210	-	id=tec_59017;cov=2;fromte=1;refte=L1_L1MDb_5end/L1_L1PREC2_5end	id=tec_82133;cov=2.76595744680851;fromte=1;refte=L1_L1PREC2_5end/L1_L1MDb_5end	uc002nan.3	NOTCH3
+chr2	135371124	135371308	-	id=tec_9043;cov=1.54347826086957;fromte=1;refte=L1_L1M4_5end	id=tec_22173;cov=2;fromte=1;refte=L1_L1M4_5end	uc002ttx.3	TMEM163
